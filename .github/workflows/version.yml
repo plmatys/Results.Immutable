@@ -79,4 +79,4 @@ jobs:
       - name: Create Pull Request
         run: |
           echo -e "Review Pull Request:\n" >> $GITHUB_STEP_SUMMARY
-          gh pr create --fill- >> $GITHUB_STEP_SUMMARY
+          gh pr create --fill-first >> $GITHUB_STEP_SUMMARY
